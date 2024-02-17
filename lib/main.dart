@@ -5,7 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:riverpod_practice/provider_type_riverpods/consumer_riverpod.dart';
 import 'package:riverpod_practice/provider_type_riverpods/consumer_widget.dart';
 import 'package:riverpod_practice/provider_type_riverpods/riverpod_statefullwidget.dart';
-import 'package:riverpod_practice/state_notifier.dart/state_notifier_provider.dart';
+import 'package:riverpod_practice/state_notifier_provider_riverpods/state_notifier_provider.dart';
 import 'package:riverpod_practice/stateprovider_type_riverpods/stateprovider_rp.dart';
 
 final nameProvider = Provider<String>((ref) => 'Riverpod App');
